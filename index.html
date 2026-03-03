@@ -11,59 +11,52 @@
     <div class="app">
         <!-- Header -->
         <header class="header">
-            <div class="logo">
-                <span class="logo-icon"></span>
-                <h1>LEMONADE support bot
-                    
-                </h1>
-            </div>
+            
         </header>
 
-            <!-- Chatbot Section -->
-            <div class="chat-section">
-                <div class="chat-container">
-                    <div class="chat-header">
-                        <div class="chat-header-info">
-                            <span class="chat-avatar">🍋</span>
-                            <div>
-                                <h3>Sunny</h3>
-                                <p class="chat-status">Online • Ready to help!</p>
-                            </div>
+        <!-- Chatbot Section -->
+        <div class="chat-section">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="chat-header-info">
+                        <span class="chat-avatar">AI</span>
+                        <div>
+                             <h2>Lemonade AI</h2>
+                            <p class="chat-status">Online • Ready to help!</p>
                         </div>
-                        <button class="clear-chat-btn" id="clear-chat" title="Clear chat">
-                            <span class="clear-icon">↺</span>
-                        </button>
+                        
+                        
                     </div>
-                    
-                    <div class="chat-messages" id="chat-messages">
-                        <div class="message bot-message">
-                            <div class="message-content">
-                                <p>Hi there! 👋 I'm Sunny, your lemonade expert. How can I help you ?</p>
-                                <span class="message-time">Just now</span>
-                            </div>
+                    <button class="clear-chat-btn" id="clear-chat" title="Clear chat">
+                        <span class="clear-icon">↺</span>
+                    </button>
+                </div>
+
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            <p>Hi there!  I'm lemonade !</p>
+                            <span class="message-time">Just now</span>
                         </div>
-                    </div>
-                    
-                  
-                    
-                    <div class="chat-input-container">
-                        <input 
-                            type="text" 
-                            id="chat-input" 
-                            placeholder="Ask me about our lemonades..."
-                            class="chat-input"
-                        >
-                        <button id="send-button" class="send-button">
-                            <span class="send-icon">➤</span>
-                        </button>
                     </div>
                 </div>
-            </div>
-        <!-- Main Content -->
-        <div class="main-content">
-            
 
+                <!-- Suggestion Buttons 
+                <div class="suggestions">
+                    <button class="suggestion-btn">What's on the menu?</button>
+                    <button class="suggestion-btn">Do you have sugar-free options?</button>
+                    <button class="suggestion-btn">Can I customize my drink?</button>
+                </div>
+-->
+                <div class="input-area">
+    <textarea id="chat-input" placeholder="Ask about lemonades..." rows="1"></textarea>
+    <button id="send-button">Send</button>
+</div>
+            </div>
         </div>
+
+        <!-- Main Content (placeholder) -->
+        <div class="main-content"></div>
     </div>
 
     <script src="script.js"></script>
